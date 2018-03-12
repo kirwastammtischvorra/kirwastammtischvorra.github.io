@@ -1,0 +1,17 @@
+#main div.kirwa {
+	margin:5px 0;
+	background:red;
+	padding:4px;
+	width:99%;}
+#main div.gph {
+	float:left;
+	margin:0 13px 0 0;}
+#main p.clear {
+	clear:left;
+}
+#main div.line {
+	margin:5px 0;
+	width:99%;
+	padding:4px;
+	background:red;
+}

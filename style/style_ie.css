@@ -1,0 +1,26 @@
+div#container {
+	width:850px;
+}
+body {
+	text-align:center;
+	font-family:sans-serif ! important;
+}
+#container {
+	text-align:left;
+}
+#logo {
+	line-height:176px;
+}
+html + body #menu {
+	height:1.3em;
+}
+html + body #menu li {
+	display:block;
+	float:left;
+}
+#subnav {
+	padding-left:10px;
+}
+#subnavb {
+	padding-left:10px;
+}

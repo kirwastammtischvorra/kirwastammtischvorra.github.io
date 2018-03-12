@@ -1,0 +1,21 @@
+#subnav {
+	line-height:1.2em;
+	width:26%;
+	min-width:10em;
+	float:right;
+	padding:85px 1% 0 1%;	margin:1em 1% 2px 1%;
+	border-left:1px dotted #aaa; 
+ }
+#subnav dt {
+	font-size:1.3em;
+	padding:0.5em;
+	margin-top:1em;
+	border-top:1px dotted #aaa;
+	letter-spacing:1px;
+	font-weight:normal;
+}
+#subnav dd {
+	padding:0;
+	margin:0.7em 0;
+	font-size:0.9em;
+}
