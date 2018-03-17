@@ -1,9 +1,13 @@
+/* Reset Minified */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
 body {
-	background:url(../img/bg.jpg) fixed #7c5a35;
-	padding:1%;
-	min-width:760px;
-	font-family:sans-serif;
-	font-size:101%;
+	background: url(../img/bg.jpg) fixed #7c5a35;
+	font-family: sans-serif;
+	font-size: 16px;
+    color: black;
+    padding: 1rem;
+    min-width: 800px;
 }
 body > p {
 	color:white;
@@ -18,40 +22,39 @@ body > p a:hover {
 	color:gray;
 }
 #container {
-	font-size:0.8em;
-	max-width:70em;
-	margin:0 auto;
-	padding:0 0 1px 0;
-	border:1px solid gray;
-    border-top:0;
-	background:white;
+	font-size: 0.9rem;
+	max-width: 60rem;
+	margin: 0 auto;
+	padding: 0;
+	border: 1px solid gray;
+    border-top: 0;
+	background: white;
 }
 #logo {
-    background:url(../img/wappen.gif) right no-repeat white;
-	height:160px;
-	padding:0;
- 	margin:0;
+    background: url(../img/wappen.gif) right no-repeat white;
+	height: 160px;
+	padding: 0;
+ 	margin: 0;
 }
 #logo img {
     margin: 30px auto 30px 10px;
-	border:0;
-    height:100px;
+	height: 100px;
 }
 #menu {
-	background:#f70000;
-	padding:5px;
-	margin:0;
-	text-align:right;
-	color:yellow;
+	background: #f70000;
+	padding: 0.4rem;
+	margin: 0;
+	text-align: right;
+	color: yellow;
 }
 #menu li {
 	font-variant:small-caps;
-	font-size:1.0em;
-	display:inline;
- 	list-style-type:none;
-	border-left:1px solid white;
-	padding:0 5px 0 5px;
-	font-weight:bold;
+	font-size: 1rem;
+	display: inline;
+ 	list-style-type: none;
+	border-left: 1px solid white;
+	padding: 0 5px 0 5px;
+	font-weight: bold;
 }
 #menu li a {
 	color:white;
@@ -65,35 +68,43 @@ body > p a:hover {
 	padding:0 31% 0 20px;
 	line-height:1.5em;
 }
-h1, h2, h3 {
-	color:black;
-	font-weight:normal;
-}
+
 h1 {
-	font-size:2.7em;
-	line-height:0.8em;
-	padding:0.6em 0 0.2em 2%;
-	margin:0;
-	border-bottom:1px dashed #aaa;
+	font-size: 2.3rem;
+    font-weight: normal;
+	line-height: normal;
+	padding: 0.8rem 0 0.1rem 0.7rem;
+	border-bottom: 1px dashed #aaa;
 }
 h2 {
-	font-size:1.5em;
+	font-size: 1.2rem;
+    line-height: normal;
+	font-weight: normal;
+	padding: 0.7rem 0 0 0;
 }
 h3 {
-	font-size:0.8em;
+	font-size: 0.9rem;
+    line-height: normal;
+	font-weight: bold;
+}
+p {
+    margin: 0;
+    padding: 0.4rem 0;
 }
 a {
-	color:black;
-	text-decoration:underline
+	color: black;
+	text-decoration:underline;
+    transition: all 0.5s ease;
 }
 a:hover {
-	color:gray;
-	text-decoration:underline;
+	color: gray;
+    text-decoration: underline;
+    transition: all 0.5s ease;
 }
 img {
-	border:0px;
-	padding:0px;
-	margin:1px;
+	border: 0;
+	padding: 0;
+	margin: 1;
 }
 .border {
 	border:1px solid #aaa;
