@@ -41,7 +41,7 @@ body {
 	color: yellow;
 }
 #menu li {
-	font-variant:small-caps;
+	font-variant: small-caps;
 	font-size: 1rem;
 	display: inline;
  	list-style-type: none;
@@ -50,11 +50,11 @@ body {
 	font-weight: bold;
 }
 #menu li a {
-	color:white;
-	text-decoration:none;
+	color: white;
+	text-decoration: none;
 }
 #menu li a:hover {
-  	color:yellow;
+  	color: yellow;
 }
 
 /* Footer */
@@ -94,7 +94,7 @@ h3 {
 	font-weight: bold;
 }
 p {
-    line-height: normal;
+    line-height: 1.2rem;
     margin: 0;
     padding: 0.4rem 0;
 }
