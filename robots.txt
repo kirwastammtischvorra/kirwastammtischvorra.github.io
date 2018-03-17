@@ -1,8 +1,9 @@
 User-agent: *
-
 Disallow: /liste/liste.xls
 Disallow: /aktuelles.js
 
 User-agent: ia_archiver
-
 Disallow: /
+
+User-agent: Googlebot
+Allow: /google*.html
