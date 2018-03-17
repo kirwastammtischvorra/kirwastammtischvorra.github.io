@@ -129,10 +129,10 @@ img {
 	font-style: italic;
 }
 .emot {
-	border:0;
-	margin:0 1px;
-	padding:0;
-	vertical-align:middle;
+	border: 0;
+	margin: 0 0.2rem;
+	padding: 0;
+	vertical-align: middle;
 }
 .fleft {
 	float: right;

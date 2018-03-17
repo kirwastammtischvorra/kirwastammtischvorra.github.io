@@ -1,17 +1,20 @@
 #main div.kirwa {
-	margin:5px 0;
-	background:red;
-	padding:4px;
-	width:99%;}
+	margin: 0.5rem 0;
+	background: white;
+    border-radius: 0.7rem;
+	padding: 0.7rem;
+    transition: all 0.5s ease;
+}
+#main div.kirwa:hover {
+	background: red;
+    transition: all 0.5s ease;
+    }
 #main div.gph {
-	float:left;
-	margin:0 13px 0 0;}
+	float: left;
+	margin: 0 1rem 0 0;
+}
 #main p.clear {
-	clear:left;
-}
-#main div.line {
-	margin:5px 0;
-	width:99%;
-	padding:4px;
-	background:red;
+	clear: left;
+    margin: 0;
+    padding: 0;
 }
