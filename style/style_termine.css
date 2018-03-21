@@ -4,6 +4,7 @@
 	margin: 0.4rem 0;
 }
 #main dd {
+    line-height: normal;
 	border-left: 1px dotted gray;
 	padding: 0.2rem;
 	margin: 0 0 1rem 1rem;
