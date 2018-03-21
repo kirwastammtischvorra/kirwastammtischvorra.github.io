@@ -17,7 +17,7 @@ body {
 	padding: 0;
 	border: 1px solid gray;
     border-top: 0;
-	background: white;
+	background-color: white;
 }
 
 /* Header */
@@ -34,7 +34,7 @@ body {
 
 /* Menue */
 #menu {
-	background: #f70000;
+	background-color: #f70000;
 	padding: 0.4rem;
 	margin: 0;
 	text-align: right;
@@ -115,6 +115,7 @@ img {
     padding: 1px;
 	border: 1px solid #aaa;
 	padding: 1px;
+    background-color: white
 }
 .respond {
     width: 100%;
