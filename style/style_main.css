@@ -77,26 +77,30 @@ footer a:hover {
 }
 h1 {
 	font-size: 2.3rem;
-    font-weight: normal;
+    font-weight: 400;
 	line-height: normal;
-	padding: 0.8rem 0 0.1rem 0.7rem;
+	padding: 0.8rem 0 0.1rem 0;
+    margin: 0 0 1rem 0;
 	border-bottom: 1px dashed #aaa;
 }
 h2 {
 	font-size: 1.2rem;
     line-height: normal;
 	font-weight: normal;
-	padding: 0.7rem 0 0 0;
+	padding: 0;
+    margin: 0.7rem 0 0.6rem 0;
 }
 h3 {
 	font-size: 0.9rem;
     line-height: normal;
-	font-weight: bold;
+	font-weight: normal;
+    font-style: italic;
+    margin: 0 0 0.4rem 0;
 }
 p {
     line-height: 1.2rem;
-    margin: 0;
-    padding: 0.4rem 0;
+    margin: 0 0 0.4rem 0;
+    padding: 0;
 }
 a {
 	color: black;
