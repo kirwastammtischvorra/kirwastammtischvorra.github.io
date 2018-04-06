@@ -8,7 +8,7 @@ body {
 	font-size: 16px;
     color: black;
     padding: 1rem;
-    min-width: 800px;
+    min-width: 768px;
 }
 #container {
 	font-size: 0.9rem;
@@ -22,14 +22,18 @@ body {
 
 /* Header */
 #logo {
-    background: url(../img/wappen.gif) right no-repeat white;
-	height: 160px;
+    background-image: url(../img/wappen.gif);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+	/* height: 160px; */
 	padding: 0;
  	margin: 0;
 }
-#logo img {
-    margin: 30px auto 30px 10px;
-	height: 100px;
+#logo>img {
+    margin: 1rem auto 1rem 0.2rem;
+	height: 6.2rem;
+    width: auto;
 }
 
 /* Menue */
@@ -43,7 +47,8 @@ body {
 #menu li {
 	font-variant: small-caps;
 	font-size: 1rem;
-	display: inline;
+    line-height: normal;
+	display: inline-block;
  	list-style-type: none;
 	border-left: 1px solid white;
 	padding: 0 5px 0 5px;
@@ -72,8 +77,11 @@ footer a:hover {
 
 /* Main area */
 #main {
-	background: url(../img/zeichnung.gif) no-repeat 100% 10px white;
-	padding: 0 18.5rem 0 1rem;
+    background-image: url(../img/zeichnung.gif);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right 10px;
+	padding: 0 18.5rem 1rem 1rem;
 }
 h1 {
 	font-size: 2.3rem;
@@ -152,6 +160,34 @@ img {
 }
 #footer {
 	clear: both;
-	padding: 0px;
+	padding: 0;
     margin: 0;
+}
+
+/* Responsiveness */
+@media all and (max-width: 768px) {
+    body {
+        min-width: 0;
+    }
+    #logo {
+        background: white;
+        height: auto;
+        padding: 1rem;
+        margin: 0;
+    }
+    #logo>img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+	#main {
+        background-image: none;
+        padding: 0 1rem 1rem 1rem;
+    }
+    #footer {
+    	clear: none;
+    	padding: 0;
+        margin: 0;
+    }
 }
