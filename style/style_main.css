@@ -7,7 +7,7 @@ body {
 	font-family: sans-serif;
 	font-size: 16px;
     color: black;
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
     min-width: 768px;
 }
 #container {
@@ -169,7 +169,7 @@ img {
 @media all and (max-width: 768px) {
     body {
         min-width: 0;
-        padding: 0.3rem;
+        padding: 0 0.4rem 0.4rem 0.4rem;
     }
     #logo {
         background: white;
