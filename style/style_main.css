@@ -195,4 +195,16 @@ img {
     	padding: 0;
         margin: 0;
     }
+    div.picbox>img {
+    	width: 100%;
+    	height: auto;
+        float: none;
+        margin: 0 0 0.2rem 0;
+    }
+    div.picbox>img {
+	    width: 100%;
+    	height: auto;
+        float: none;
+        margin: 0 0 0.2rem 0;
+    }
 }
