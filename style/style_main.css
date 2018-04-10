@@ -42,6 +42,9 @@ body {
 	margin: 0;
 	text-align: right;
 	color: yellow;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 #menu li {
 	font-variant: small-caps;
