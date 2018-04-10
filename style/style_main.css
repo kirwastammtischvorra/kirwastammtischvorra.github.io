@@ -114,11 +114,13 @@ p {
 a {
 	color: black;
 	text-decoration:underline;
+    -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 a:hover {
 	color: gray;
     text-decoration: underline;
+    -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 img {
