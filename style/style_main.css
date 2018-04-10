@@ -26,7 +26,6 @@ body {
     background-position: center right;
     background-repeat: no-repeat;
     background-size: contain;
-	/* height: 160px; */
 	padding: 0;
  	margin: 0;
 }
@@ -132,10 +131,6 @@ img {
 	padding: 1px;
     background-color: white
 }
-.respond {
-    width: 100%;
-    height: auto;
-}
 .subtitle {
 	padding: 0;
 	margin: 0;
@@ -150,13 +145,22 @@ img {
 	padding: 0;
 	vertical-align: middle;
 }
+.picbox {
+    margin: 0.4rem 0.5rem;
+}
 .fleft {
 	float: right;
-	margin: 0.5rem 0 0.2rem 1rem;
 }
 .fright {
 	float: left;
-	margin: 0.5rem 1rem 0.2rem 0;
+}
+.nofloat {
+    float: none;
+}
+.nofloat img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 .bold {
 	font-weight: bold;
@@ -175,11 +179,11 @@ img {
     }
     #logo {
         background: white;
-        height: auto;
         padding: 1rem;
         margin: 0;
     }
     #logo>img {
+        max-width: 100%;
         width: 100%;
         height: auto;
         padding: 0;
@@ -197,16 +201,11 @@ img {
     	padding: 0;
         margin: 0;
     }
-    div.picbox>img {
+    div.picbox img {
+        float: none;
+    	max-width: 100%;
     	width: 100%;
     	height: auto;
-        float: none;
-        margin: 0 0 0.2rem 0;
-    }
-    div.picbox>img {
-	    width: 100%;
-    	height: auto;
-        float: none;
         margin: 0 0 0.2rem 0;
     }
 }
