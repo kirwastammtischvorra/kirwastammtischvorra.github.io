@@ -4,6 +4,6 @@ document.write(
     '<dd>Sa, 05.05. um 16:30 Uhr:<br/>Wanderung nach Treuf zu Braun\'s Hofcaf&eacute;. Treffpunkt am Rathaus.</dd>' +
     '<dd>Fr, 18.05. ab 19:00 Uhr:<br/>Hüttenabend. Es wird gegrillt.</dd>' +
     '<dt>Informationen</dt>' +
-    '<dd>Wir sind auf der Suche nach neuen Kirwaboum und Kirwamadler. Wenn ihr Interesse habt bei uns mitzumachen, sei es nur zum Baumaustanzen an der Kirwa oder ihr auch bei den vielen Veranstaltungen im übrigen Jahr dabei sein wollt, dann meldet euch gerne bei <a href="mailto:lara.winter@t-online.de">Lara</a>, <a href="mailto:felix17295@gmx.de">Felix</a> oder <a href="mailto:patrick.eichenmueller@gmx.de">Patrick</a>. Die können euch sagen, wie es bei uns abl&auml;uft.</dd>' +
+    '<dd>Wenn ihr Interesse habt bei den Kirwaboum und -madeln mitzumachen, sei es nur zum Baumaustanzen an der Kirwa oder ihr auch bei den vielen Veranstaltungen im übrigen Jahr dabei sein wollt, dann meldet euch gerne bei <a href="mailto:lara.winter@t-online.de">Lara</a> oder <a href="mailto:patrick.eichenmueller@gmx.de">Patrick</a>. Die können euch sagen, wie es bei uns abl&auml;uft.</dd>' +
     '<dt></dt>' +
-    '<dd>Zuletzt aktualisiert am 29.03.2018.');
+    '<dd>Zuletzt aktualisiert am 14.04.2018.');
