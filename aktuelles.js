@@ -5,4 +5,4 @@ document.write(
     '<dt>Informationen</dt>' +
     '<dd>Wenn ihr Interesse habt bei den Kirwaboum und -madeln mitzumachen, sei es nur zum Baumaustanzen an der Kirwa oder ihr auch bei den vielen Veranstaltungen im übrigen Jahr dabei sein wollt, dann meldet euch gerne bei <a href="mailto:lara.winter@t-online.de">Lara</a> oder <a href="mailto:patrick.eichenmueller@gmx.de">Patrick</a>. Die können euch sagen, wie es bei uns abl&auml;uft.</dd>' +
     '<dt></dt>' +
-    '<dd>Zuletzt aktualisiert am 14.04.2018.');
+    '<dd>Zuletzt aktualisiert am 22.05.2018.');
