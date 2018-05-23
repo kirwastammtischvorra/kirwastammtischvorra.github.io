@@ -1,11 +1,27 @@
-#main dt {
+dl.monthly>dt {
 	font-size: 1.3rem;
 	padding: 0;
 	margin: 0.4rem 0;
 }
-#main dd {
+dl.monthly>dd {
     line-height: normal;
 	border-left: 1px dotted gray;
 	padding: 0.2rem;
 	margin: 0 0 1rem 1rem;
+}
+dl.daily>dt {
+    display: inline;
+	font-style: italic;
+}
+dl.daily>dt::before {
+    display: block;
+    content: "";
+}
+dl.daily>dt::after {
+    display: inline;
+    content: ": ";
+}
+dl.daily>dd {
+    display: inline;
+
 }

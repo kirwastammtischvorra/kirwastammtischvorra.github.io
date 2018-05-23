@@ -153,9 +153,11 @@ img {
 }
 .fleft {
 	float: right;
+    margin: 0 0 0 0.5rem;
 }
 .fright {
 	float: left;
+    margin: 0 0.5rem 0 0;
 }
 .nofloat {
     float: none;
@@ -169,6 +171,11 @@ img {
 	font-weight: bold;
 }
 #footer {
+	clear: both;
+	padding: 0;
+    margin: 0;
+}
+.clearfloat {
 	clear: both;
 	padding: 0;
     margin: 0;
@@ -201,6 +208,11 @@ img {
     }
     #footer {
     	clear: none;
+    	padding: 0;
+        margin: 0;
+    }
+    .clearfloat {
+    	clear: both;
     	padding: 0;
         margin: 0;
     }
