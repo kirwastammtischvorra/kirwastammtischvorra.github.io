@@ -1,5 +1,5 @@
 document.write(
-    'Von 22. bis 24. Juni findet die Kirwa im Schloss statt! Zum <a href="img/flyer_18.png">Programm</a>.' +
+    'Von 22. bis 24. Juni findet die Kirwa im Schloss statt! Zum <a href="img/flyer_18.png">Programm</a>.</dd>' +
     '<dd>Fr, 06.07. ab 18:00 Uhr:<br/>Helferessen in der Kirwaboumh&uuml;tte.</dd>' +
     '<dd>Fr, 17.08. ab 19:00 Uhr:<br/>Hüttenabend. Es gibt Schaschliktopf.</dd>' +
     '<dt>Informationen</dt>' +
