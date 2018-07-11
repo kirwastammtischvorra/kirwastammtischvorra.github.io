@@ -15,8 +15,21 @@
 	float: left;
 	margin: 0 1rem 0 0;
 }
+#main div.gph img {
+	width: 220px;
+    height: auto;
+}
 #main p.clear {
 	clear: left;
     margin: 0;
     padding: 0;
+}
+
+/* Responsiveness */
+@media all and (max-width: 768px) {
+    #main div.gph img {
+        max-width: 100%;
+    	width: 100%;
+        height: auto;
+    }
 }
