@@ -1,5 +1,5 @@
 document.write(
-    + 'Sa, 29.09. um 12:30 Uhr:<br/>Wanderung in der Fränkischen. Treffpunkt am Bahnhof.</dd>'
+    'Sa, 29.09. um 12:30 Uhr:<br/>Wanderung in der Fränkischen. Treffpunkt am Bahnhof.</dd>'
     + '<dd>Fr, 12.10. ab 19:00 Uhr:<br/>Hüttenabend. Es gibt ger&auml;ucherte Forellen.</dd>'
     + '<dd>Sa, 10.11. ab 18:30 Uhr:<br/>Martinifeuer der Feuerwehr am Feuerwehrhaus.</dd>'
     + '<dd>Fr, 16.11. ab 19:00 Uhr:<br/>Hüttenabend. Es gibt saure Bratwürste.</dd>'
