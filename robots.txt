@@ -1,10 +1,12 @@
 User-agent: *
 Disallow: /liste/liste.xls
 Disallow: /aktuelles.js
+Disallow: /impressum.html
 
 User-agent: Googlebot
 Disallow: /liste/liste.xls
 Disallow: /aktuelles.js
+Disallow: /impressum.html
 
 User-Agent: Googlebot-Image
 Disallow: /liste/
