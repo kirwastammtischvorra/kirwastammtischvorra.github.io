@@ -2,6 +2,7 @@ User-agent: *
 Disallow: /liste/liste.xls
 Disallow: /aktuelles.js
 Disallow: /impressum.html
+Disallow: /downloads/
 
 User-agent: Googlebot
 Disallow: /liste/liste.xls
