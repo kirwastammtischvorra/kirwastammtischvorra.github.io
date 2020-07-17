@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /liste/liste.xls
+Disallow: /liste/liste.xlsx
 Disallow: /aktuelles.js
 Disallow: /downloads/
 
