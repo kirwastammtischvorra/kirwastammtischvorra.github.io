@@ -1,23 +1,151 @@
 /* Reset Minified */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
 
 /* General */
 body {
-	background: url(../img/bg.jpg) fixed #7c5a35;
-	font-family: sans-serif;
-	font-size: 16px;
+    background: url(../img/bg.jpg) fixed #7c5a35;
+    font-family: sans-serif;
+    font-size: 16px;
     color: black;
     padding: 0 1rem 1rem 1rem;
     min-width: 768px;
 }
+
 #container {
-	font-size: 0.9rem;
-	max-width: 60rem;
-	margin: 0 auto;
-	padding: 0;
-	border: 1px solid gray;
+    font-size: 0.9rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid gray;
     border-top: 0;
-	background-color: white;
+    background-color: white;
 }
 
 /* Header */
@@ -26,56 +154,63 @@ body {
     background-position: center right;
     background-repeat: no-repeat;
     background-size: contain;
-	padding: 0;
- 	margin: 0;
+    padding: 0;
+    margin: 0;
 }
+
 #logo>img {
     margin: 1rem auto 1rem 1rem;
-	height: 6.2rem;
+    height: 6.2rem;
     width: auto;
 }
 
 /* Menue */
 #menu {
-	background-color: #f70000;
-	padding: 0.4rem;
-	margin: 0;
-	text-align: right;
-	color: yellow;
-    position: -webkit-sticky; /* Safari */
+    background-color: #f70000;
+    padding: 0.4rem;
+    margin: 0;
+    text-align: right;
+    color: yellow;
+    position: -webkit-sticky;
+    /* Safari */
     position: sticky;
     top: 0;
 }
+
 #menu li {
-	font-variant: small-caps;
-	font-size: 1rem;
+    font-variant: small-caps;
+    font-size: 1rem;
     line-height: normal;
-	display: inline-block;
- 	list-style-type: none;
-	border-left: 1px solid white;
-	padding: 0 0.5rem;
+    display: inline-block;
+    list-style-type: none;
+    border-left: 1px solid white;
+    padding: 0 0.5rem;
     margin: 0;
-	font-weight: bold;
+    font-weight: bold;
 }
+
 #menu li a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
+
 #menu li a:hover {
-  	color: yellow;
+    color: yellow;
 }
 
 /* Footer */
 footer p {
-	color: white;
-	font-size: 0.7rem;
-	text-align: center;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
 }
+
 footer a {
-	color: white;
+    color: white;
 }
+
 footer a:hover {
-	color:gray;
+    color: gray;
 }
 
 /* Main area */
@@ -84,100 +219,118 @@ footer a:hover {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: right 10px;
-	padding: 0 18.5rem 1rem 1rem;
+    padding: 0 18.5rem 1rem 1rem;
 }
+
 h1 {
-	font-size: 2.3rem;
+    font-size: 2.3rem;
     font-weight: 400;
-	line-height: normal;
-	padding: 0.8rem 0 0.1rem 0;
-    margin: 0 0 1rem 0;
-	border-bottom: 1px dashed #aaa;
-}
-h2 {
-	font-size: 1.2rem;
     line-height: normal;
-	font-weight: normal;
-	padding: 0;
+    padding: 0.8rem 0 0.1rem 0;
+    margin: 0 0 1rem 0;
+    border-bottom: 1px dashed #aaa;
+}
+
+h2 {
+    font-size: 1.2rem;
+    line-height: normal;
+    font-weight: normal;
+    padding: 0;
     margin: 1rem 0 0.6rem 0;
 }
+
 h3 {
-	font-size: 0.9rem;
+    font-size: 0.9rem;
     line-height: normal;
-	font-weight: normal;
+    font-weight: normal;
     font-style: italic;
     margin: 0 0 0.4rem 0;
 }
+
 p {
     line-height: 1.2rem;
     margin: 0 0 0.4rem 0;
     padding: 0;
 }
+
 a {
-	color: black;
-	text-decoration:underline;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-a:hover {
-	color: gray;
+    color: black;
     text-decoration: underline;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-img {
-	border: 0;
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
+
+img {
+    border: 0;
+}
+
 .border {
     padding: 1px;
-	border: 1px solid #aaa;
-	padding: 1px;
+    border: 1px solid #aaa;
+    padding: 1px;
     background-color: white
 }
+
 .subtitle {
-	padding: 0;
-	margin: 0;
-	color: gray;
-	font-size: 0.9em;
-	text-align: left;
-	font-style: italic;
+    padding: 0;
+    margin: 0;
+    color: gray;
+    font-size: 0.9em;
+    text-align: left;
+    font-style: italic;
 }
+
 .emot {
-	border: 0;
-	margin: 0 0.2rem;
-	padding: 0;
-	vertical-align: middle;
+    border: 0;
+    margin: 0 0.2rem;
+    padding: 0;
+    vertical-align: middle;
 }
+
 .picbox {
     margin: 0.4rem 0.5rem;
 }
+
 .fleft {
-	float: right;
+    float: right;
     margin: 0 0 0 0.5rem;
 }
+
 .fright {
-	float: left;
+    float: left;
     margin: 0 0.5rem 0 0;
 }
+
 .nofloat {
     float: none;
 }
+
 .nofloat img {
     max-width: 100%;
     width: 100%;
     height: auto;
 }
+
 .bold {
-	font-weight: bold;
+    font-weight: bold;
 }
+
 #footer {
-	clear: both;
-	padding: 0;
+    clear: both;
+    padding: 0;
     margin: 0;
 }
+
 .clearfloat {
-	clear: both;
-	padding: 0;
+    clear: both;
+    padding: 0;
     margin: 0;
 }
 
@@ -187,11 +340,13 @@ img {
         min-width: 0;
         padding: 0 0.4rem 0.4rem 0.4rem;
     }
+
     #logo {
         background: white;
         padding: 1rem;
         margin: 0;
     }
+
     #logo>img {
         max-width: 100%;
         width: 100%;
@@ -199,28 +354,33 @@ img {
         padding: 0;
         margin: 0;
     }
+
     #menu {
         text-align: center;
     }
-	#main {
+
+    #main {
         background-image: none;
         padding: 0 1rem 1rem 1rem;
     }
+
     #footer {
-    	clear: none;
-    	padding: 0;
+        clear: none;
+        padding: 0;
         margin: 0;
     }
+
     .clearfloat {
-    	clear: both;
-    	padding: 0;
+        clear: both;
+        padding: 0;
         margin: 0;
     }
+
     div.picbox img {
         float: none;
-    	max-width: 100%;
-    	width: 100%;
-    	height: auto;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
         margin: 0 0 0.2rem 0;
     }
 }
